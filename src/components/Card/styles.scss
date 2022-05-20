@@ -1,0 +1,25 @@
+@import '../../App';
+.card{
+    border: 1px solid black;
+    padding: 1rem 3rem;
+    max-width: 40%;
+    border-radius: .5rem;
+    background-color: $second-color;
+    font-family:'poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+        color: $desc-color;
+        font-weight: 400;
+    }
+    p{
+        margin-top: 1rem;
+        color: $text-color;
+    }
+    img{
+        margin-top: 1rem;
+        width: 90%;
+        
+    }
+}
